@@ -1,0 +1,10 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body background-image: url('/imgages/watch_minimized.png') {
+  background-size: cover;
+}
+a {
+  color: #00b7ff;
+}

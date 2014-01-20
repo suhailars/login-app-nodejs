@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <div align = "center">
+    <h2><%= title %></h2>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+   </div>
+  </head> 
+<div align = "center">
+ <link rel='stylesheet' href='/stylesheets/style.css' />
+ <form action="/login" method="post">
+  <input type="text" name="username" placeholder="username"><br>
+  <input type="password" name="password" placeholder="password"><br><br>
+  <input type="submit" name="submit" value="submit"><br><br>
+ </form>
+</div>
+<div align="center">
+<input type="button" id="show" value="Show results" onclick="load(this.value,this.id)"/>
+</div>
+<script type="text/javascript">
+function load(){
+document.location.href="/show";
+}
+ </script>
+</html>
